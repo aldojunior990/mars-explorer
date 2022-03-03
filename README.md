@@ -11,7 +11,7 @@ This app uses the NASA search API for images recorded by Martian Rovers.
 
 
 <h1 align="center" display="flex">
-   <img height="500px" src=".github/todo.png">
+   <img height="500px" src=".github/mars-explorer.jpg">
 </h1>
 
 ## :computer: Tecnologias - Technologies 
