@@ -1,54 +1,24 @@
 import styled from "styled-components";
 
-
 export const Container = styled.header`
-width: 80%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  @media (max-width: 900px) {
+    width: 90%;
+  }
 
-img{
-    width: 15rem;
-}
-
-strong{
-    font-size: 1rem;
-    color: var(--white);
-    font-weight: 600;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-form{
-    margin-top: 1rem;
-    width: 80%;
-    display: flex;
-    align-items:  center;
-    justify-content:  center;
-    flex-direction: column;
-    input{
-        width: 50%;
-        margin: 0.06rem;
-        border: none;
-        border-radius: 0.2rem;
-        height: 2rem;
-
-        @media(max-width: 1024px){
-            width: 100%;
-        }
-    }
-
-    input:first-child{
-        padding: 1rem;
-    }
-
-    input:last-child{
-        background: var(--blue);
-        color: var(--white);
-        font-weight: 600;
-        cursor: pointer;
-    }
-    
-}
-`
+  @media (max-width: 425px) {
+    width: 95%;
+  }
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  &:hover {
+    filter: brightness(1.5);
+  }
+`;

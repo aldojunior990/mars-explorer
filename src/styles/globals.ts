@@ -20,10 +20,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 :root {
-        --background: #0F0E0E;
-        --second-background: #201F24;
+        --background: #060913;
+        --second-background: #797A7E;
         --white: #FFFF;
-        --blue: #186BB2;
+        --orange: #FF5722;
   }
 
   body{
