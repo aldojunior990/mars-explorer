@@ -72,7 +72,7 @@ export default function CuriosityRover() {
         </nav>
 
         <section className="images">
-          <h2>Imagens registradas pelo Opportunity</h2>
+          <h2>Imagens registradas pelo Curiosity</h2>
 
           <form onSubmit={handleNewSearch}>
             <p>Buscar por data:</p>
