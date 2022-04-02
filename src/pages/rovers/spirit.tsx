@@ -6,11 +6,11 @@ import { FormEvent, useRef, useState } from "react";
 import Link from "next/link";
 
 export default function SpiritRover() {
-  const { imagesSpirit, setSearch } = useImage();
+  const { imagesSpirit, setSearch , search} = useImage();
 
   const carousel = useRef<any>(null);
 
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(search.earth_date);
 
   const notFound = [1];
 
