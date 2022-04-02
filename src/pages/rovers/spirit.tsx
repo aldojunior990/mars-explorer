@@ -46,7 +46,10 @@ export default function SpiritRover() {
             um local chamado {"Troy"}, com apenas cinco rodas de trabalho para
             ajudar no esforço de resgate. Após meses de testes e manobras
             cuidadosamente planejadas, a NASA encerrou os esforços para libertar
-            o rover e, eventualmente, encerrou a missão em 25 de maio de 2011.
+            o rover e, eventualmente, encerrou a missão em 25 de maio de 2011. <br />
+            <a href="https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer-spirit">
+                 Ver mais
+            </a>
           </p>
           <ul>
             <li>
@@ -58,11 +61,6 @@ export default function SpiritRover() {
               {" "}
               <HiStatusOnline className="icon" /> Status da missão:{" "}
               <span>completa</span>
-            </li>
-            <li>
-              <a href="https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer-spirit">
-                Ver mais
-              </a>
             </li>
           </ul>
         </nav>

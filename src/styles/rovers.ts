@@ -36,6 +36,14 @@ export const Container = styled.div`
         margin-top: 1rem;
         font-weight: 400;
         text-align: justify;
+        a {
+          text-decoration: none;
+          color: var(--orange);
+          transition: 0.5s;
+          &:hover {
+            filter: brightness(0.9);
+          }
+        }
       }
       ul {
         margin-top: 1rem;
@@ -51,20 +59,12 @@ export const Container = styled.div`
           display: flex;
           align-items: center;
           text-align: center;
-          margin-left: 0.5rem;
           flex-wrap: wrap;
           .icon {
             font-size: 1.125rem;
             margin-right: 0.3rem;
           }
-          a {
-            text-decoration: none;
-            color: var(--orange);
-            transition: 0.5s;
-            &:hover {
-              filter: brightness(0.9);
-            }
-          }
+
           span {
             color: var(--white);
             font-weight: 400;
@@ -72,12 +72,13 @@ export const Container = styled.div`
             filter: brightness(0.9);
           }
           & + li {
-            margin-left: 0.5rem;
+            margin-left: 1rem;
           }
 
           @media (max-width: 600px) {
             & + li {
-              margin-top: 0.5rem;
+              margin-left: 0rem;
+              margin-top: 0.7rem;
             }
           }
         }

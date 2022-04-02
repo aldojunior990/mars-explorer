@@ -51,6 +51,10 @@ export default function CuriosityRover() {
             tamanho de um MINI Cooper, é equipado com 17 câmeras e um braço
             robótico contendo um conjunto de ferramentas e instrumentos
             especializados em laboratório.
+            <br />
+            <a href="https://www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl">
+              Ver mais
+            </a>
           </p>
           <ul>
             <li>
@@ -62,11 +66,6 @@ export default function CuriosityRover() {
               {" "}
               <HiStatusOnline className="icon" /> Status da missão:{" "}
               <span> em andamento</span>
-            </li>
-            <li>
-              <a href="https://www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl">
-                Ver mais
-              </a>
             </li>
           </ul>
         </nav>

@@ -1,4 +1,3 @@
-import { rmSync } from "fs";
 import {
   createContext,
   ReactNode,
@@ -33,7 +32,7 @@ interface ImageContextData {
   imagesOpportunity: ImageProps[];
 
   setSearch: (value: SearchProps) => void;
-  search: SearchProps
+  search: SearchProps;
 }
 
 interface ImageProviderProps {
@@ -92,7 +91,7 @@ export function ImageProvider({ children }: ImageProviderProps) {
         imagesSpirit,
         imagesOpportunity,
         imagesCuriosity,
-        search
+        search,
       }}
     >
       {children}

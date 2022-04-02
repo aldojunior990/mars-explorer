@@ -45,7 +45,10 @@ export default function OpportunityRover() {
             descobertas sobre o Planeta Vermelho, incluindo evidências
             dramáticas de que há muito tempo pelo menos uma área de Marte
             permaneceu úmida por um longo período e que as condições poderiam
-            ter sido adequadas para sustentar a vida microbiana.
+            ter sido adequadas para sustentar a vida microbiana. <br/>
+            <a href="https://www.jpl.nasa.gov/missions/mars-exploration-rover-opportunity-mer">
+              Ver mais
+            </a>
           </p>
           <ul>
             <li>
@@ -57,11 +60,6 @@ export default function OpportunityRover() {
               {" "}
               <HiStatusOnline className="icon" /> Status da missão:{" "}
               <span>completa</span>
-            </li>
-            <li>
-              <a href="https://www.jpl.nasa.gov/missions/mars-exploration-rover-opportunity-mer">
-                Ver mais
-              </a>
             </li>
           </ul>
         </nav>

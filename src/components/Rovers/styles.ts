@@ -28,6 +28,24 @@ export const Container = styled.main`
       transition: 0.5s;
       @media (max-width: 768px) {
         width: 100%;
+        min-height: 6rem;
+        flex-direction: row;
+
+        &:hover {
+          border: 1px solid var(--background);
+          background: linear-gradient(
+            to bottom,
+            var(--background),
+            var(--orange)
+          );
+        }
+
+        a {
+          display: none;
+        }
+        p {
+          display: none;
+        }
       }
       h2 {
         color: var(--white);
@@ -46,6 +64,7 @@ export const Container = styled.main`
         font-weight: 700;
         color: var(--orange);
         text-decoration: none;
+        cursor: pointer;
       }
 
       &:hover {
