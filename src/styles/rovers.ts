@@ -36,6 +36,7 @@ export const Container = styled.div`
         margin-top: 1rem;
         font-weight: 400;
         text-align: justify;
+        filter: brightness(0.9);
         a {
           text-decoration: none;
           color: var(--orange);
